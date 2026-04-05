@@ -5,12 +5,9 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Cairo";
+import { FONT_FAMILY } from "../fonts";
 
-const { fontFamily } = loadFont("normal", {
-  weights: ["400", "700", "900"],
-  subsets: ["arabic", "latin"],
-});
+const fontFamily = FONT_FAMILY;
 
 type Props = {
   teal: string;
