@@ -1,0 +1,33 @@
+{
+  "name": "noder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx remotion studio src/index.ts",
+    "build": "npx remotion render src/index.ts NoderPromo out/noder-promo.mp4",
+    "preview": "npx remotion preview src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RESERABUSINESS/noder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RESERABUSINESS/noder/issues"
+  },
+  "homepage": "https://github.com/RESERABUSINESS/noder#readme",
+  "dependencies": {
+    "@remotion/cli": "^4.0.445",
+    "@remotion/google-fonts": "^4.0.445",
+    "@remotion/transitions": "^4.0.445",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.445",
+    "typescript": "^6.0.2"
+  }
+}
